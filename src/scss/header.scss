@@ -10,6 +10,10 @@ header {
 
 .logo--petit {
   display: block;
+  position: absolute;
+  left: 6%;
+  top: 5%;
+  height: 22%;
 
   @media (min-width: 768px) {
     display: none;
@@ -23,13 +27,19 @@ header {
     display: block;
     position: absolute;
     left: 5%;
+    top: 2%;
     height: 80%;
   }
 }
 .logo--texte {
+  width: 75%;
+  padding-left: 32%;
+  padding-top: 10%;
+  margin-bottom: 10%;
+
   @media (min-width: 768px) {
-    padding-left: 155px;
-    padding-top: 20px;
+    padding-left: 30%;
+    padding-top: 2%;
     width: 70%;
   }
 }
@@ -37,7 +47,7 @@ header {
 .header__menu {
   display: none;
   justify-content: flex-end;
-  width: 40%;
+  width: 50%;
   margin-right: 4%;
   margin-top: 2%;
 

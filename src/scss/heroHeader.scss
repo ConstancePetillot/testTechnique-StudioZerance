@@ -8,16 +8,24 @@
   h3 {
     text-transform: uppercase;
     text-align: center;
-    font-size: 21px;
-    margin-bottom: 2%;
+
+    @media (min-width: 768px) {
+      font-size: 1.51vw;
+      margin-bottom: 2%;
+    }
   }
 
   h1 {
     font-family: "futura";
     text-align: center;
-    font-size: 52px;
+    font-size: 5.24vh;
+    line-height: 150%;
     font-weight: bold;
-    width: 50%;
+
+    @media (min-width: 768px) {
+      font-size: 3.74vw;
+      width: 50%;
+    }
 
     strong {
       background-image: url("https://cdn.shopify.com/s/files/1/0072/0561/7711/files/Calque_14.png?8187");
