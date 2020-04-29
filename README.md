@@ -14,3 +14,4 @@ Développer la page d’accueil du site internet https://studiozerance.fr.
 ## Temps passé sur le projet :card_file_box: :
 
 1. Mise en place (Npm, src, assets, styleSheets...) : 20min
+2. Ajouts des assets (fonts, img...) : 1h (chasse aux images et aux logos, ajouts de la font Futura pour les titres...)
