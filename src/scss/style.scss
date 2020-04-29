@@ -1,0 +1,19 @@
+@import "reset.scss";
+
+@import "font.scss";
+@import "variables.scss";
+
+@import "header.scss";
+@import "bandeau.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "russo-one";
+}
