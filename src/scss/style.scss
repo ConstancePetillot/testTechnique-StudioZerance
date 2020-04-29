@@ -4,6 +4,7 @@
 @import "variables.scss";
 
 @import "header.scss";
+@import "heroHeader.scss";
 @import "bandeau.scss";
 
 * {
@@ -15,5 +16,5 @@ img {
 }
 
 body {
-  font-family: "russo-one";
+  font-family: "karla";
 }
