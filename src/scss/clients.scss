@@ -1,3 +1,30 @@
 .clients {
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h3 {
+    font-size: 2vh;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 8%;
+    margin-bottom: 5%;
+
+    @media (min-width: 768px) {
+      font-size: 1.51vw;
+    }
+  }
+}
+
+.clients__logos {
+  width: 80%;
+  column-count: 3;
+  column-gap: 5%;
+  margin-bottom: 8%;
+
+  @media (min-width: 768px) {
+    width: 80%;
+    column-count: 5;
+  }
 }
