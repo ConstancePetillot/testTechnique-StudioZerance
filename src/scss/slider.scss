@@ -1,5 +1,5 @@
 .slider {
-  --sliderWidth: 400px;
+  --sliderWidth: 100%;
   width: var(--sliderWidth);
   overflow: hidden;
   position: relative;
@@ -17,7 +17,8 @@
   background-size: cover;
   background-position: center;
   padding: 10%;
-  height: 70vh;
+  height: 80vh;
+
   width: var(--sliderWidth);
   object-fit: cover;
 }
@@ -32,7 +33,7 @@
   align-content: center;
   text-align: center;
   position: relative;
-  top: 15%;
+  top: 2%;
   left: 7%;
   padding: 24px;
 }
@@ -69,7 +70,7 @@
   background-size: cover;
 
   padding: 10%;
-  height: 70vh;
+  height: 80vh;
 }
 
 .encart__img--joone {
