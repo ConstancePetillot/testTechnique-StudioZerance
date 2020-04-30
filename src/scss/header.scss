@@ -28,18 +28,22 @@ header {
     position: absolute;
     left: 5%;
     top: 2%;
+    height: 60%;
+  }
+
+  @media (min-width: 1080px) {
     height: 80%;
   }
 }
 .logo--texte {
   width: 75%;
-  padding-left: 32%;
+  padding-left: 37%;
   padding-top: 10%;
   margin-bottom: 10%;
 
   @media (min-width: 768px) {
-    padding-left: 30%;
-    padding-top: 2%;
+    padding-left: 36%;
+    padding-top: 5%;
     width: 70%;
   }
 }
