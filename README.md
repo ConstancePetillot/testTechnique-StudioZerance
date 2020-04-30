@@ -15,3 +15,7 @@ Développer la page d’accueil du site internet https://studiozerance.fr.
 
 1. Mise en place (Npm, src, assets, styleSheets...) : 20min
 2. Ajouts des assets (fonts, img...) : 1h (chasse aux images et aux logos, ajouts de la font Futura pour les titres...)
+3. Header : 1h30
+4. Hero header : 1h
+5. Clients : 30 min
+6. Slider : 5h + 
