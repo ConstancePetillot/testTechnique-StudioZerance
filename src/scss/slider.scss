@@ -28,12 +28,23 @@
   height: 240px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-content: center;
+  justify-content: space-around;
   text-align: center;
-  top: 2%;
-  left: 7%;
+  position: relative;
+  left: 0;
+  top: 10%;
   padding: 24px;
+
+  @media (min-width: 768px) {
+    left: 60%;
+  }
+
+  @media (min-width: 768px) {
+    bottom: 20%;
+    right: 10%;
+    width: 320px;
+    height: 300px;
+  }
 }
 
 .slider__encart h3 {
