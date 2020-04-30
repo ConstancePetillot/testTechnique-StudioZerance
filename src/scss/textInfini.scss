@@ -1,6 +1,5 @@
 .defile__content {
   display: block;
-  //margin: 40px auto;
   padding: 2px;
   overflow: hidden;
   position: relative;
@@ -18,7 +17,6 @@
   color: white;
   display: block;
   margin-left: -100%;
-  //padding: 0 5px;
   font-size: 20px;
   line-height: 200%;
   text-align: left;
@@ -27,6 +25,7 @@
 
   @media (min-width: 768px) {
     font-size: 26px;
+    animation: defilement 10s infinite linear;
   }
 }
 
@@ -34,7 +33,6 @@
   content: attr(data-text);
   position: absolute;
   white-space: nowrap;
-  //padding-left: 10px;
 }
 
 @keyframes defilement {
