@@ -1,0 +1,35 @@
+.slider__slide--seasonly {
+  position: relative;
+}
+
+.slider__encart {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  background-color: white;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+}
+
+.slider__encart h3 {
+  text-transform: uppercase;
+  font-size: 2vh;
+}
+
+.encart__logo {
+  width: 60%;
+}
+
+.encart__img {
+  width: 40%;
+}
+
+.encart__voir p {
+  background-image: url("https://cdn.shopify.com/s/files/1/0072/0561/7711/files/Calque_14.png?8187");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center 150%;
+}
