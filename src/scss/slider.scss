@@ -82,6 +82,17 @@
   position: absolute;
   top: 50%;
   transform: translateX(-50%);
-  width: 30px;
+  width: 25px;
+
+  :hover {
+    fill: #ffcd1a;
+  }
+}
+
+.slider__arrow--left {
+  transform: rotate(180deg);
+}
+
+.slider__arrow--right {
   right: 30px;
 }

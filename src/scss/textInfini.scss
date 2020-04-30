@@ -1,0 +1,38 @@
+.defile__content {
+  display: block;
+  margin: 40px auto;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  width: 1850px;
+  height: 40px;
+  background-color: #ffcd1a;
+}
+
+.defile__message {
+  color: white;
+  display: block;
+  margin-left: -100%;
+  padding: 0 5px;
+  font-size: 20px;
+  line-height: 200%;
+  text-align: left;
+  animation: defilement 14s infinite linear;
+}
+
+.defile__message:after {
+  content: attr(data-text);
+  position: absolute;
+  white-space: nowrap;
+  padding-left: 10px;
+}
+
+@keyframes defilement {
+  0%,
+  100% {
+    margin-left: 0;
+  }
+  99.99% {
+    margin-left: -100%;
+  }
+}
