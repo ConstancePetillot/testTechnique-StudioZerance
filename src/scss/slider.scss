@@ -1,12 +1,14 @@
 .slider__slide--seasonly {
-  position: relative;
+  background-image: url("../assets/img/Artboard_2.jpg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: 140%;
+  background-position: center;
 }
 
 .slider__encart {
-  position: absolute;
-  top: 60px;
-  left: 50%;
   background-color: white;
+  margin-left: 50%;
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -19,12 +21,14 @@
   font-size: 2vh;
 }
 
-.encart__logo {
-  width: 60%;
+.encart__img {
+  width: 70%;
 }
 
-.encart__img {
-  width: 40%;
+.encart__texte {
+  p {
+    font-size: 12px;
+  }
 }
 
 .encart__voir p {
