@@ -2,7 +2,7 @@
   display: block;
   padding: 2px;
   overflow: hidden;
-  position: relative;
+
   width: 100%;
   height: 50px;
   background-color: #ffcd1a;
@@ -20,7 +20,8 @@
   font-size: 20px;
   line-height: 200%;
   text-align: left;
-  animation: defilement 14s infinite linear;
+  animation: defilement 14s infinite;
+  animation-timing-function: linear;
   font-weight: bolder;
 
   @media (min-width: 768px) {

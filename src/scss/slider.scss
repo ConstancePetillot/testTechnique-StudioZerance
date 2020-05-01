@@ -1,14 +1,17 @@
 .slider {
-  width: 100%;
-  overflow: hidden;
+  width: 100vw;
   position: relative;
+  overflow: hidden;
 }
 
 .slider__arrow {
+  z-index: 2;
   position: absolute;
   top: 50%;
+  transform: rotateX(-50%);
   transform: translateX(-20%);
   width: 25px;
+  cursor: pointer;
 
   :hover {
     fill: #ffcd1a;
@@ -21,25 +24,36 @@
 }
 
 .slider__arrow--right {
-  right: 4%;
+  right: 13%;
 }
 
 .slider__slides {
+  width: 270vw;
   display: flex;
   transition: transform 0.3s;
-  width: 360vw;
+}
+
+.slider__slide {
+  width: 90vw;
+  height: 420px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 90px;
+
+  @media (min-width: 768px) {
+    height: 520px;
+  }
+  @media (min-width: 1080px) {
+    height: 700px;
+  }
 }
 
 .slider__slide--seasonly {
   background-image: url("../assets/img/Artboard_2.jpg");
-  background-repeat: no-repeat;
-  object-fit: cover;
-  background-size: cover;
-  background-position: center;
-  padding: 10%;
-  height: 70vh;
-  width: 25%;
-  object-fit: cover;
 }
 
 .slider__encart {
@@ -50,18 +64,9 @@
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
-  position: relative;
-  left: 0;
-  top: 10%;
   padding: 24px;
 
   @media (min-width: 768px) {
-    left: 60%;
-  }
-
-  @media (min-width: 768px) {
-    bottom: 20%;
-    right: 10%;
     width: 320px;
     height: 300px;
   }
@@ -96,11 +101,6 @@
 
 .slider__slide--joone {
   background-image: url("../assets/img/Artboard_1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  padding: 10%;
-  height: 80vh;
 }
 
 .encart__img--joone {

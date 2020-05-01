@@ -3,10 +3,11 @@ let position = 0;
 const $leftArrow = document.querySelector(".slider__arrow--left");
 const $rightArrow = document.querySelector(".slider__arrow--right");
 const $slides = document.querySelector(".slider__slides");
-const sliderWidth = document.querySelector(".slider").offsetWidth;
 
 $slides.appendChild(document.querySelector(".slider__slide").cloneNode());
 const sliderLength = document.querySelectorAll(".slider__slide").length;
+const allSlidesWidth = $slides.offsetWidth;
+const slideWidth = allSlidesWidth / sliderLength;
 
 $leftArrow.addEventListener("click", left);
 $rightArrow.addEventListener("click", right);
@@ -34,7 +35,7 @@ function right() {
 }
 
 function move() {
-  $slides.style.transform = "translateX(" + position * sliderWidth * -1 + "px)";
+  $slides.style.transform = "translateX(" + position * slideWidth * -1 + "px)";
 }
 
 function jump(callback) {
