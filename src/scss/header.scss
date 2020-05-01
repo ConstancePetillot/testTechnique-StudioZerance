@@ -32,23 +32,24 @@ header {
   }
 
   @media (min-width: 1080px) {
+    left: 3%;
     height: 75%;
   }
 }
 .logo--texte {
-  width: 75%;
-  padding-left: 38%;
-  padding-top: 15%;
+  width: 65%;
+  padding-left: 28%;
+  padding-top: 5%;
   margin-bottom: 10%;
 
-  @mixin medium {
-    padding-left: 36%;
-    padding-top: 5%;
-    width: 70%;
+  @media (min-width: 768px) {
+    padding-left: 26%;
+    padding-top: 2%;
+    width: 65%;
   }
 
-  @mixin large {
-    padding-left: 40%;
+  @media (min-width: 1080px) {
+    padding-left: 25%;
   }
 }
 
