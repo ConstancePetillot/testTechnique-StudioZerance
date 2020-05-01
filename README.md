@@ -19,6 +19,10 @@ Développer la page d’accueil du site internet https://studiozerance.fr.
 6. Slider : 6+- 
 7. Texte infini : 1h
 
+## Fonctionnement technique :robot: :
+
+La page est codée en HTML, SCSS (parcel) et JavaScript vanilla. 
+
 ## Mon retour d'expérience :pencil2: :
 
 Dans l'ensemble tous s'est bien passé. Mon problème principal a été avec le slider. J'ai eu deux problèmes, tout d'abords, j'avais déja codé un slider avec des photos mais jamais avec un encart dessus et surtout jamais un où il fallait voir un bout de l'image suivante. 
