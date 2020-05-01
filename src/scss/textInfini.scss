@@ -5,7 +5,7 @@
 
   width: 100%;
   height: 50px;
-  background-color: #ffcd1a;
+  background-color: $secondary-yellow;
 
   @media (min-width: 768px) {
     height: 70px;
@@ -14,7 +14,7 @@
 }
 
 .defile__message {
-  color: white;
+  color: $primary-white;
   display: block;
   margin-left: -100%;
   font-size: 20px;
@@ -32,7 +32,6 @@
 
 .defile__message:after {
   content: attr(data-text);
-  position: absolute;
   white-space: nowrap;
 }
 

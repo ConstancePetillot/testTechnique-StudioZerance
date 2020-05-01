@@ -1,12 +1,12 @@
 .clients {
-  background-color: black;
+  background-color: $primary-black;
   display: flex;
   flex-direction: column;
   align-items: center;
 
   h3 {
     font-size: 2vh;
-    color: white;
+    color: $primary-white;
     text-transform: uppercase;
     padding-top: 8%;
     margin-bottom: 5%;

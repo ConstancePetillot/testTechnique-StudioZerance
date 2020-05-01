@@ -37,17 +37,17 @@ header {
 }
 .logo--texte {
   width: 75%;
-  padding-left: 37%;
+  padding-left: 38%;
   padding-top: 15%;
   margin-bottom: 10%;
 
-  @media (min-width: 768px) {
+  @mixin medium {
     padding-left: 36%;
     padding-top: 5%;
     width: 70%;
   }
 
-  @media (min-width: 1080px) {
+  @mixin large {
     padding-left: 40%;
   }
 }
@@ -63,13 +63,15 @@ header {
     display: flex;
   }
 
-  .menu {
-    a {
-      text-decoration: none;
-      color: black;
-      font-weight: bold;
-      font-size: 16px;
-      text-align: center;
+  .menu a {
+    text-decoration: none;
+    color: $primary-black;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+
+    &:hover {
+      color: $secondary-yellow;
     }
   }
 }

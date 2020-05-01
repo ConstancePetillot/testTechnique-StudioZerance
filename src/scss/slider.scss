@@ -14,7 +14,7 @@
   cursor: pointer;
 
   :hover {
-    fill: #ffcd1a;
+    fill: $secondary-yellow;
   }
 }
 
@@ -57,7 +57,7 @@
 }
 
 .slider__encart {
-  background-color: white;
+  background-color: $primary-white;
   width: 250px;
   height: 240px;
   display: flex;
@@ -96,6 +96,7 @@
 
   :hover {
     font-style: italic;
+    cursor: pointer;
   }
 }
 
