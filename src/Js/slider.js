@@ -29,7 +29,7 @@ function right() {
     setTimeout(function () {
       position = 0;
       jump();
-    }, 300);
+    }, 180);
   }
 }
 
